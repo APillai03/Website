@@ -14,7 +14,7 @@ import chatapp from  '../assets/chatapp.png';
 import acct from '../assets/acct.jpg';
 function Project() {
     return (
-        <div>
+        <div className='Projects'>
             <div className="cover">
                 <h1>Timeline</h1>
                 <img src={timeline}></img>

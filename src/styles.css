@@ -34,16 +34,18 @@
     outline: 2px solid firebrick;
 }
 .logo {
+    margin-left: 3px;
     background-color: rgb(20,20,20);
     justify-content: left;
 }
 .logo img {
-    border-radius: 40%;
-    background-color: rgba(17, 247, 139, 0.671);
-    height: 10vh;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 9vh;
     margin: 2px;
 }
 .region1 {
+    
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     justify-content: center;
@@ -53,6 +55,7 @@
     width: 50%;
 }
 .region1 span {
+    
     font-family: "Calligraffitti", cursive;
 }
 .region2 {
@@ -130,6 +133,10 @@
 }
 
 @media (max-width: 1000px) {
+    
+    .region1 {
+        font-size: 30px;
+    }
     .region2 {
         flex-direction: column;
         gap: 40px;
