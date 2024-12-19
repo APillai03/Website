@@ -98,6 +98,9 @@
 .contact-card button:hover {
     animation: rainbow 5s infinite;
 }
+.contact-card button:active {
+    border: 5px solid white;
+}
 @media (max-width: 1000px) {
     .contact-card{
         margin-left: 0;
